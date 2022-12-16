@@ -49,7 +49,8 @@ int main() {
     //capacity after method shrink_to_fit
     std::cout << "capacity: " << vector.capacity() << std::endl;
 
-    for (size_t i = 0; i < vector.size(); i++) {
+    std::cout << "size:" << vector.size() << std.endl;
+    for (int i = 0; i < vector.size(); i++) {
         // Access element []. Returns a reference to the element at position n in the vector container.
         std::cout << vector[i] << std::endl;
         // Assigns new contents to the container, replacing its current contents
